@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            
+            <a class="navbar-brand" href="#">Coffee Shop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#coffee">Coffee</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#shop">Shop</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#"><i
+                                class="fa fa-search"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Cover Section -->
+    <div class="cover position-relative text-center">
+        <img src="images/banner-bg.png" alt="Banner Background" class="img-fluid w-100" style="height: 80vh;">
+        <div class="d-flex align-items-center justify-content-center h-100">
+            <img src="" alt="Banner" class="banner-img me-4">
+            <div>
+                <h1>Coffee</h1>
+                <p>Tasty at DozeCafe</p>
+                <a href="#about" class="btn btn-primary">About Us</a>
+                <a href="#contact" class="btn btn-outline-secondary">Call Us</a>
+            </div>
+        </div>
+    </div>
+    
+
+<!-- Coffee Offer Section -->
+<div id="coffee" class="coffee-section">
+    <div class="container">
+        <h2 class="text-center mb-4">Our Coffee Order</h2>
+        <div id="menuCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-4 mb-4">
+                            <div class="card menu-item">
+                                <img src="images/img-1.png" class="card-img-top" alt="Item 1">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Espresso</h5>
+                                    <p class="card-text">$3.50</p>
+                                    <a href="#" class="btn btn-outline-danger">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card menu-item">
+                                <img src="images/img-2.png" class="card-img-top" alt="Item 2">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Cappuccino</h5>
+                                    <p class="card-text">$4.00</p>
+                                    <a href="#" class="btn btn-outline-danger">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card menu-item">
+                                <img src="images/img-3.png" class="card-img-top" alt="Item 3">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Latte</h5>
+                                    <p class="card-text">$4.50</p>
+                                    <a href="#" class="btn btn-outline-danger">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-4 mb-4">
+                            <div class="card menu-item">
+                                <img src="images/img-4.png" class="card-img-top" alt="Item 4">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Mocha</h5>
+                                    <p class="card-text">$4.75</p>
+                                    <a href="#" class="btn btn-outline-danger">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#menuCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#menuCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="about-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="images/about-img.png" alt="About Us" class="img-fluid">
+                </div>
+
+                <div class="about-info">
+                    <div class="about-cards">
+                        <h2>About Our Shop</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel libero a odio tempor
+                            malesuada. Vivamus commodo eros a augue facilisis.</p>
+                            <a href="#" class="btn btn-outline-danger">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Testimonials Section -->
+        <div class="testimonials">
+            <div class="background" style="background-image: url('images/client-bg.png'); background-size: cover; background-position: center;">
+                <div class="container my-5 text-center text-white">
+                    <h2 class="text-center mb-4">What Says Customers</h2>
+                    <div class="testimonial-cards">
+                        <div class="col-12 col-md-4 mb-4">
+                            <img src="images/client-img1.png" alt="Customer 1" class="square mb-3" width="150" height="150">
+                            <h5>Joy Moark</h5>
+                            <p class="testimonial">"Great coffee and amazing atmosphere!"</p>
+                        </div>
+                        <div class="col-12 col-md-4 mb-4">
+                            <img src="images/client-img2.png" alt="Customer 2" class="square mb-3" width="150" height="150">
+                            <h5>Mihacal</h5>
+                            <p class="testimonial">"Best place to start your day with a perfect cup."</p>
+                        </div>
+                        <div class="col-12 col-md-4 mb-4">
+                            <img src="images/client-img3.png" alt="Customer 3" class="square mb-3" width="150" height="150">
+                            <h5>Uliya Den</h5>
+                            <p class="testimonial">"Highly recommended for coffee lovers!"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog Section -->
+        <div id="blog" class="blog-section">
+            <div class="container">
+                <h2 class="text-center mb-4">Our Blog</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="images/blog-img1.png" class="card-img-top" alt="Blog 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Prep Techniques for Coffee</h5>
+                                <p class="card-text">Learn the secrets behind the perfect brew.</p>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-outline-danger">Read More</a>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="images/blog-img2.png" class="card-img-top" alt="Blog 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Enjoy Best Coffee</h5>
+                                <p class="card-text">Discover the joy of freshly brewed coffee.</p>
+                            </div>  
+                        </div>
+                        <a href="#" class="btn btn-outline-danger">Read More</a>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div id="contact" class="contact-section">
+            <div class="container" style="max-width: 600px; margin: 0 auto;">
+                <h2 class="text-center mb-4">Get in Touch</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+        
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2025 Coffee Shop. All rights reserved.</p>
+            <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+        </body>
+
+</html>
